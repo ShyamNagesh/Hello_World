@@ -15,7 +15,7 @@ import org.testng.annotations.AfterTest;
 
 public class HelloTest {
 
-	/*WebDriver driver;
+	WebDriver driver;
 	WebElement text;
 	@BeforeTest
 	public void beforeTest() {
@@ -27,7 +27,7 @@ public class HelloTest {
 		driver.manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES);
 	}
 
-	@Test
+	/*@Test
 	public void f() {
 
 		text = driver.findElement(By.xpath("html/body/h2"));
